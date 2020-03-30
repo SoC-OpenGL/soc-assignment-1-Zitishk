@@ -6,7 +6,7 @@
 #include <GLFW/glfw3.h>
 
 // just change n for better approx circle
-const int n=20;
+const int n=30;
 void DrawCircle(float vertices[3*n], float ori[3], float r)
 {
     for(int i=0;i<n;i++)
